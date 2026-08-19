@@ -27,6 +27,7 @@
     <mapstruct.version>1.6.3</mapstruct.version>
 
     <log4j2.version>2.25.5</log4j2.version>
+    <postgresql.version>42.7.13</postgresql.version>
     <vertx.version>4.5.32</vertx.version>
     
     <!-- Test properties -->
