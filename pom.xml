@@ -26,6 +26,7 @@
     <folio-spring-base.version>9.0.0</folio-spring-base.version>
     <mapstruct.version>1.6.3</mapstruct.version>
 
+    <bouncycastle.version>1.85.2</bouncycastle.version>
     <log4j2.version>2.25.5</log4j2.version>
     <micrometer.version>1.15.12</micrometer.version>
     <postgresql.version>42.7.13</postgresql.version>
@@ -65,6 +66,13 @@
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-api</artifactId>
         <version>${log4j2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bc-jdk18on-bom</artifactId>
+        <version>${bouncycastle.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
